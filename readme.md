@@ -1,27 +1,29 @@
-# Laravel PHP Framework
+## News publishing, newsstand and rss feed
+Create a public news publishing portal where news can be published and disseminated
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Description
+- Any user could register with an email address. The application sends a verification link to the email address. When the user clicks the link, the application asks for a new password. Now the user is registered and is able to publish news.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+- After log in the user could see his own published news list, remove or publish a new article. No edit of news is permitted.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+- For each news article the following information is required :
 
-## Official Documentation
+    Title
+    Single photo
+    Description
+    Created date and time, 
+    User name
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+- Newsstand web application available for general public use.
 
-## Contributing
+    Users could see the news highlights. Latest 10 news only.
+    Upon clicking an article highlight, the user is able to view a complete article.
+    The user is able to download a PDF file of the displayed news article.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+- A News RSS feed service
 
-## Security Vulnerabilities
+    An RSS feed can be subscribed to, which includes latest 10 news articles.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-## License
+## Installation
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
