@@ -1,0 +1,18 @@
+
+.validationError i {
+    position:absolute;
+    top:0;
+    right:-2px;
+    color:red;
+}
+
+
+.newsListRow ul li {
+    border-bottom:1px solid grey;
+    
+}
+
+.active {
+    text-decoration:none !important;
+    color:black !important;
+}

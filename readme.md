@@ -24,6 +24,3 @@ Create a public news publishing portal where news can be published and dissemina
 
     An RSS feed can be subscribed to, which includes latest 10 news articles.
 
-
-## Installation
-
